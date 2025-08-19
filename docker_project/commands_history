@@ -1,0 +1,67 @@
+docker ps 
+    2  docker ps -a
+    3  docker login -u dockerhub9820
+    4  ls -ltr
+    5  mkdir docker_project
+    6  ls -ltr
+    7  cd docker_project
+    8  ls -ltr
+    9  vi Dockerfile
+   10  ls -ltr
+   11  vi Dockerfile
+   12  ls -ltr
+   13  docker build .
+   14  vi Dockerfile
+   15  docker build .
+   16  cat Dockerfile 
+   17  ls -ltr
+   18  sudo apt update
+   19  sudo apt-get install docker.io
+   20  sudo systemctl status docker
+   21  sudo usermod -aG docker $USER
+   22  ls -ltr
+   23  cd docker_project/
+   24  ls -ltr
+   25  docker imags ls
+   26  docker image ls
+   27  docker run ba022af6b495
+   28  docker ps -a
+   29  docker stop b1129b7cfd16
+   30  cd ..
+   31  ls -ltr
+   32  cd ubuntu
+   33  ls -ltr
+   34  cd docker_project/
+   35  ls -ltr
+   36  cat Dockerfile 
+   37  cat package.json 
+   38  cat server.js 
+   39  history
+   40  docker image
+   41  docker image ls
+   42  docker ps -a
+   43  docker images ls
+   44  docker image ls
+   45  docker run -d -p --rm --name="mywebapp" 3001:3000 ba022af6b495
+   46  docker run -d  --rm --name="mywebapp" -p 3001:3000 ba022af6b495
+   47  docker ps -a
+   48  docker stop mywebapp
+   49  docker build -t mywebapp/01 .
+   50  docker rmi mywebapp/01
+   51  docker image ls
+   52  ls -ltr
+   53  vi server.js
+   54  docker build -t mywebapp/02 .
+   55  docker image ls 
+   56  docker run -d --rm -name="mywebapp" -p 3000:3000 mywebapp:02
+   57  docker run -d --rm --name="mywebapp" -p 3000:3000 mywebapp:02
+   58  docker login -u dockerhub9820
+   59  docker run -d --rm --name="mywebapp" -p 3000:3000 mywebapp:02
+   60  docker run -d --rm --name="mywebapp" -p 3000:3000 mywebapp/02:latest
+   61  docker ps -a
+   62  docker stop mywebapp
+   63  docker run -d --rm --name="mywebapp" -p 3003:3000 mywebapp/02:latest
+   64  docker stop mywebapp
+   65  docker ps -a
+   66  docker image ls
+   67  history
