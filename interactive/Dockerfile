@@ -1,0 +1,9 @@
+FROM python:3.11-slim
+
+WORKDIR /myapp
+
+# Copy your Python script into the container
+COPY inter.py .
+
+# Run the Python app
+CMD ["python", "inter.py"]
