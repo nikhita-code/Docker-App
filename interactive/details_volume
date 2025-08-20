@@ -1,0 +1,133 @@
+ubuntu@ip-172-31-43-162:~/inter_pro$ docker run -it --rm -v myvolume:/myapp/ 83deeb7e37b2
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 1
+Enter your name: nikhita
+✅ User info saved.
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 2
+
+📋 All Users:
+
+Name: nikhita
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 1
+Enter your name: raju
+✅ User info saved.
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 2
+
+📋 All Users:
+
+Name: nikhita
+Name: raju
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): mila
+❌ Invalid choice, try again.
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 2
+
+📋 All Users:
+
+Name: nikhita
+Name: raju
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 1
+Enter your name: mila
+✅ User info saved.
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 2
+
+📋 All Users:
+
+Name: nikhita
+Name: raju
+Name: mila
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 3
+👋 Exiting... Bye!
+ubuntu@ip-172-31-43-162:~/inter_pro$ docker run -it --rm -v myvolume:/myapp/ 83deeb7e37b2
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 1
+Enter your name: tika
+✅ User info saved.
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 2
+
+📋 All Users:
+
+Name: nikhita
+Name: raju
+Name: mila
+Name: tika
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 1
+Enter your name: disha
+✅ User info saved.
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 2
+
+📋 All Users:
+
+Name: nikhita
+Name: raju
+Name: mila
+Name: tika
+Name: disha
+
+====== User Info Menu ======
+1. Add User
+2. Show All Users
+3. Exit
+Enter your choice (1-3): 3
+👋 Exiting... Bye!
+ubuntu@ip-172-31-43-162:~/inter_pro$ 
