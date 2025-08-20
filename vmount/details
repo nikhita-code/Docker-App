@@ -1,0 +1,25 @@
+ubuntu@ip-172-31-43-162:~$ cd vmount/
+ubuntu@ip-172-31-43-162:~/vmount$ ls -ltr
+total 12
+-rw-rw-r-- 1 ubuntu ubuntu 310 Aug 20 18:32 Dockerfile
+-rw-rw-r-- 1 ubuntu ubuntu  41 Aug 20 18:47 server.txt
+-rw-rw-r-- 1 ubuntu ubuntu 242 Aug 20 18:50 myapp.py
+ubuntu@ip-172-31-43-162:~/vmount$ docker images
+REPOSITORY                          TAG         IMAGE ID       CREATED             SIZE
+<none>                              <none>      366ff09fa106   11 minutes ago      119MB
+<none>                              <none>      a0a97ba7c69e   14 minutes ago      119MB
+<none>                              <none>      2b78c6884cab   29 minutes ago      119MB
+<none>                              <none>      83deeb7e37b2   About an hour ago   125MB
+dockerhub9820/nikhita-docker-repo   01          4c8612efc4c9   2 hours ago         125MB
+dockerhub9820/nikhita-docker-repo   latest      4c8612efc4c9   2 hours ago         125MB
+webapp                              latest      4c8612efc4c9   2 hours ago         125MB
+mywebapp/02                         latest      113ae66de1ff   22 hours ago        1.13GB
+dockerhub9820/myapp                 latest      ba022af6b495   23 hours ago        1.13GB
+<none>                              <none>      8de46948d8f6   23 hours ago        1.12GB
+python                              latest      45fd9a3ce5de   5 days ago          1.11GB
+nginx                               latest      ad5708199ec7   7 days ago          192MB
+python                              3.12-slim   bad5eac7befe   12 days ago         119MB
+python                              3.11-slim   2ba2e944f9cd   12 days ago         125MB
+node                                lts         a1bea2f8c1ee   2 weeks ago         1.12GB
+ubuntu@ip-172-31-43-162:~/vmount$ docker run -v /home/ubuntu/vmount/server.txt:/myapp/server.txt --rm 366ff09fa106
+📋 Current Servers: ['server1.example.com', 'server2.example.com', '']
