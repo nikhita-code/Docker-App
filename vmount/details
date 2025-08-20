@@ -23,3 +23,13 @@ python                              3.11-slim   2ba2e944f9cd   12 days ago      
 node                                lts         a1bea2f8c1ee   2 weeks ago         1.12GB
 ubuntu@ip-172-31-43-162:~/vmount$ docker run -v /home/ubuntu/vmount/server.txt:/myapp/server.txt --rm 366ff09fa106
 📋 Current Servers: ['server1.example.com', 'server2.example.com', '']
+ubuntu@ip-172-31-43-162:~/vmount$ vi server.txt 
+ubuntu@ip-172-31-43-162:~/vmount$ docker run -v /home/ubuntu/vmount/server.txt:/myapp/server.txt --rm 366ff09fa106
+📋 Current Servers: ['server1.example.com', 'server2.example.com', 'server3.example.com', 'server2.example.com', '']
+ubuntu@ip-172-31-43-162:~/vmount$ cat server.txt 
+server1.example.com
+server2.example.com
+server3.example.com
+server2.example.com
+
+ubuntu@ip-172-31-43-162:~/vmount$ 
