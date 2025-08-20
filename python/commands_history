@@ -1,0 +1,18 @@
+ cd python_project/
+  119  docker pull python
+  120  vi python.py
+  121  ls -ltr
+  122  mv python.py myapp.py
+  123  ls -ltr
+  124  Dockerfile
+  125  vi Dockerfile
+  126  ls -ltr
+  127  docker image ls 
+  128  docker run -it 45fd9a3ce5de
+  129  docker build -t webapp
+  130  docker build -t webapp .
+  131  docker image ls
+  132  docker run -it webapp 
+  133  docker image ls
+  134  cat Dockerfile 
+  135  cat myapp.py 
